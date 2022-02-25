@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public enum ItemType {
+public enum ItemType {
+    SWORD,HAMMER,DAGGER
 }

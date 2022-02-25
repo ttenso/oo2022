@@ -3,6 +3,7 @@ public class Human {
     int vanus;
     double pikkus;
     boolean mees;
+    char symbol;
     public Human(String nimi, int vanus, double pikkus, boolean mees) {
         this.nimi = nimi;
         this.vanus = vanus;
@@ -12,7 +13,7 @@ public class Human {
 
     public void sayHello() {
         System.out.println(nimi + vanus);
-        
+
     }
     // to .. võtan toString -- enter
     @Override
