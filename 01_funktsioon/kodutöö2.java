@@ -8,18 +8,18 @@ public class kodutöö2 {
             int Täringutearv = input.nextInt();
             Random ranNum = new Random();
             System.out.print("Sinu täringud ");
-            int total = 0;
+            int kogusumma = 0;
             int randomNumber = 0;
             for (int i = 0; i < Täringutearv; i++) {
 
                 randomNumber = ranNum.nextInt(6) + 1;
-                total = total + randomNumber;
+                kogusumma = kogusumma + randomNumber;
                 System.out.print(randomNumber);
                 System.out.print(" ");
             }
 
             System.out.println("");
-            System.out.println("Kogu summa: " + total);
+            System.out.println("Kogu summa: " + kogusumma);
             input.close();
         }
     }
