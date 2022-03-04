@@ -19,16 +19,17 @@ public class Sportlane {
             System.out.println(eesnimi + perekonnanimi + " Surub rinnalt " + Math.round(raskus/Kaal) + " korda oma kehakaalu");
         }
 
-        @Override
-        public String toString() {
-            return "Sportlane{" +
-                    "eesnimi='" + eesnimi + '\'' +
-                    ", perekonnanimi='" + perekonnanimi + '\'' +
-                    ", vanus=" + vanus +
-                    ", sugu=" + sugu +
-                    ", Kaal=" + Kaal +
-                    ", raskus=" + raskus +
-                    '}';
-        }
+    @Override
+    public String toString() {
+        return "Sportlane{" +
+                "eesnimi='" + eesnimi + '\'' +
+                ", perekonnanimi='" + perekonnanimi + '\'' +
+                ", vanus=" + vanus +
+                ", sugu='" + sugu + '\'' +
+                ", Kaal=" + Kaal +
+                ", raskus=" + raskus +
+                '}';
     }
+}
+
 
