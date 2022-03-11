@@ -4,7 +4,10 @@ public class Human {
     double pikkus;
     boolean mees;
     char symbol;
+<<<<<<< HEAD
 
+=======
+>>>>>>> @{u}
     public Human(String nimi, int vanus, double pikkus, boolean mees) {
         this.nimi = nimi;
         this.vanus = vanus;
@@ -14,8 +17,13 @@ public class Human {
     }
 
     public void sayHello() {
+<<<<<<< HEAD
         System.out.println(nimi + "hello");
         
+=======
+        System.out.println(nimi + vanus);
+
+>>>>>>> @{u}
     }
     // to .. võtan toString -- enter
     @Override
