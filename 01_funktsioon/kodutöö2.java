@@ -3,7 +3,7 @@ import java.util.Random;
 public class kodutöö2 {
     public static void main(String args[])
         {
-<<<<<<< HEAD
+
             System.out.print("Mitu täringut veeretame: ");
             Scanner input = new Scanner(System.in);
             int Täringutearv = input.nextInt();
@@ -22,9 +22,9 @@ public class kodutöö2 {
             System.out.println("");
             System.out.println("Kogu summa: " + kogusumma);
             input.close();
-=======
-            extracted();
->>>>>>> @{u}
+
+
+
         }
 
     private static void extracted() {
