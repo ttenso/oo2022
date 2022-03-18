@@ -1,13 +1,10 @@
-public class Player {
-    int CoordinateY;
-    int CoordinateX;
+public class Player extends Character implements WorldObject {
     Direction direction;
     item item;
 
     // Constructor
     public Player(int worldHeight, int worldWidth){
-        this.CoordinateY = generateRandomCoordinate(worldHeight);
-        this.CoordinateX = generateRandomCoordinate(worldHeight);
+       super(worldHeight, worldWidth);
         this.direction = Direction.UP;
     }
 
@@ -15,9 +12,7 @@ public class Player {
         this.item = item;
         System.out.println("mängija sai eseme +" + item.itemType);
     }
-    public static int generateRandomCoordinate(int worldSize) {
-        return (int) (Math.random()*(worldSize-2))+1;
-    }
+
     public  void movePlayer(String input, int worldHeight, int worldWidth) {
 
         switch (input) {

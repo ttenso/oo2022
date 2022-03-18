@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class World {
+public class World implements WorldObject{
     int height = 5;
     int width = 10;
     List<item> items;
@@ -11,7 +11,7 @@ public class World {
 
     }
     // int -- sama tüüp mis peab olema funkt sees return järgi
-    public static int generateRandomCoordinate(int worldSize) {
+    public int generateRandomCoordinate(int worldSize) {
         return (int) (Math.random()*(worldSize-2))+1;
     }
 

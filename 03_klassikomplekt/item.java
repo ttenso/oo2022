@@ -1,4 +1,4 @@
-public class item {
+public class item implements WorldObject{
     int CoordinateY;
     int CoordinateX;
     double strength;
