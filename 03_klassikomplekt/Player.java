@@ -14,7 +14,6 @@ public class Player extends Character implements WorldObject {
     }
 
     public  void movePlayer(String input, int worldHeight, int worldWidth) {
-
         switch (input) {
             case "a":
                 direction = Direction.LEFT;
@@ -36,12 +35,12 @@ public class Player extends Character implements WorldObject {
                 }
                 break;
             case DOWN:
-                if (CoordinateY < worldHeight-3) {
+                if (CoordinateY < worldHeight - 3) {
                     CoordinateY++;
                 }
                 break;
             case RIGHT:
-                if (CoordinateX < worldWidth-3) {
+                if (CoordinateX < worldWidth - 3) {
                     CoordinateX++;
                 }
                 break;
@@ -51,6 +50,8 @@ public class Player extends Character implements WorldObject {
                 }
                 break;
         }
+
+
 
 //            if (direction == Direction.LEFT) {
 //                playerCoordinateX--;
@@ -62,7 +63,10 @@ public class Player extends Character implements WorldObject {
 //                playerCoordinateY--;
 //            }
     }
+
+
 }
+
 
 // Tellimuse - id, tooted, kasutaja, aja
 // kasutaja - frontendis regaminse järgselt

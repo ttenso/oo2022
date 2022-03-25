@@ -29,6 +29,13 @@ public class item implements WorldObject{
         return (int) (Math.random()*(worldSize-2))+1;
     }
 
-    public  void movePlayer(String input, int worldHeight, int worldWidth) {
+    @Override
+    public String toString() {
+        return "item{" +
+                "CoordinateY=" + CoordinateY +
+                ", CoordinateX=" + CoordinateX +
+                ", strength=" + strength +
+                ", itemType=" + itemType +
+                '}';
     }
 }

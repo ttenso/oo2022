@@ -29,6 +29,13 @@ public class Game {
         item hammer = new item(world.height, world.width, ItemType.HAMMER);
         item dagger = new item(world.height, world.width, ItemType.DAGGER);
         world.items = Arrays.asList(sword, hammer, dagger);
+        //       world.characters.add(mangija1);
+        //       world.characters.add(vaenlane1);
+        //     world.characters.add(sword);
+        //        world.worldObjects.add(mangija1);
+        //        world.worldObjects.add(vaenlane1);
+        //       world.worldObjects.add(sword);
+
 
         world.printMap(mangija1.CoordinateY, mangija1.CoordinateX, vaenlane1.CoordinateY, vaenlane1.CoordinateX);
 

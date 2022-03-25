@@ -4,6 +4,8 @@ public class World implements WorldObject{
     int height = 5;
     int width = 10;
     List<item> items;
+    List<WorldObject> worldObjects;
+    List<Character> characters;
 
     public World(int height, int width) {
         this.height = height;

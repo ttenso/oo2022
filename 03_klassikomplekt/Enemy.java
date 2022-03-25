@@ -1,13 +1,7 @@
-public class Enemy implements WorldObject {
-    int CoordinateY;
-    int CoordinateX ;
+public class Enemy extends Character implements WorldObject {
 
-    // new enemy(1, 6)
     public Enemy(int worldHeight, int worldWidth) {
-        this.CoordinateY = generateRandomCoordinate(worldHeight);
-       this.CoordinateX = generateRandomCoordinate(worldWidth);
+        super(worldHeight,worldWidth);
     }
-    public int generateRandomCoordinate(int WorldSize) {
-        return (int) (Math.random()*(WorldSize-2))+1;
-    }
+
 }
