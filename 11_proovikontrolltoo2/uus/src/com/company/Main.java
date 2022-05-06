@@ -20,7 +20,7 @@ public class Main {
         System.out.println("1. hammasratta suurus:" + hammasratas1.suurus);
         System.out.println("2. hammasratta suurus:" + hammasratas2.suurus);
         System.out.println("3. hammasratta suurus:" + hammasratas3.suurus);
-        System.out.printf("Minu kella suurus: ",
+        System.out.printf("Minu kella suurus: %.2f",
                 (pendliPikkus + hammasratas1.suurus + hammasratas2.suurus +
                 hammasratas3.suurus));
 
