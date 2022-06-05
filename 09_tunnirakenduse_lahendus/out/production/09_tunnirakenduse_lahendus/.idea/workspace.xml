@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be081c73-c807-4e1f-acf5-0c9bb7e5cb7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/Homework/Kalkulaator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/Homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_klassikomplekt/Homework/liides.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_liides/.idea/06_liides.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_liides/Homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/09_tunnirakenduse_lahendus.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/09_tunnirakenduse_lahendus/.idea/09_tunnirakenduse_lahendus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/ItemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/ItemType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/QuestMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/QuestMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/WorldObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/WorldObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_klassikomplekt/item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_klassikomplekt/Game/item.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2899P3QipTZ66ImiI0skkAthb5v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="09_tunnirakenduse_lahendus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be081c73-c807-4e1f-acf5-0c9bb7e5cb7e" name="Changes" comment="" />
+      <created>1650617907274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650617907274</updated>
+      <workItem from="1650617908607" duration="697000" />
+      <workItem from="1650618625717" duration="330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
